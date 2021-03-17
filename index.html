@@ -4,38 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="" -->
+    <link rel="stylesheet" href="style.css">
     <title>Subie Fanpage</title>
 </head>
 
-<body>
+<body class="center">
     <header class="header">
-        <h1>Subie the Schnauzer</h1>
-        <nav>
+        <!-- <h1 class="title">Subie the Schnauzer</h1> -->
+        <nav class="navbar">
             <ul>
-                <li>
-                    <a href="https://github.com/joyfullyx" target="_blank">Github</a>
+                <li class="navitem">
+                    <a href="https://www.akc.org/dog-breeds/miniature-schnauzer/" target="_blank">Additional Schnauzer Information</a>
                 </li>
-                <li>
-                    <a href="#">Portfolio</a>
+                <li class="navitem">
+                    <a href="#">Photos</a>
                 </li>
-                <li>
+                <li class="navitem">
                     <a href="joyfullyx@gmail.com" class="contact">Contact</a> 
                 </li>
             </ul>
         </nav>
     </header>
 
-    <section>
-        <h2>Subie</h2>
-        <img src="https://i.imgur.com/WXIb0Cu.jpg" atl="Subie the Schnauzer">
-        <p>
-            Subie is a 4 year old Miniature Schnauzer. He is obsessed with pinecones and fetch, and loves to sing with sirens. 
-        </p>
-        <p>
-            Contact Subie through the form below to keep up with the latest adventures of Subie!
-        </p>
+    <br><br>
+
+    <main class="content">
+        <section>
+            <h1 class="title">Subie the Schnauzer</h1>
+        </section>
+
+    <br><br>
+
+        <section>
+            <!-- <h2 class="subheader">Subie</h2> -->
+            <img src="https://i.imgur.com/WXIb0Cu.jpg" alt="Subie the Schnauzer" class="img">
+            <br><br>
+            <p class="info">
+                Subie is a 4 year old Miniature Schnauzer. He is obsessed with pinecones and fetch, and loves to sing along with sirens. Subie is a special Schnauzer becuase he has natural ears and a natural tail. 
+                Traditionally, Schnauzers have clipped ears and docked tails.  
+            <br>
+            Many people who meet Subie do not believe that he is a Schnauzer beacuse of this, but we promise that he is!
+            </p>
+            <p class="info">
+                Contact Subie through the form below to keep up with the latest and greatest adventures of Subie!
+            </p>
+        </section>
+
+    <br><br>
+
+    </main>
+    <section class="form">
+        <form method="post" action="contact.php">
+            <textarea name="name">name</textarea>
+            <input type="submit">
+        </form>
+        <form method="post" action="contact.php">
+            <textarea name="email">email</textarea>
+            <input type="submit">
+        </form>
     </section>
+
+    <footer class="footer">
+        <h3>Made by Subie</h3>
+    </footer>
+
+
 </body>
 
 

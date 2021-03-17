@@ -1,3 +1,96 @@
 * {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: beige;
+    padding: 1px;
+    margin: -1px;
+}
+
+.title {
+    text-align: center;
+    display: inline;
+    color: black;
+    background-color: beige;
+    padding: 20px;
+    position: relative;
+}
+
+body {
+    background-color: beige;
+}
+
+.header {
+    padding: ;
+    color: black;
+    background-color: black;
+    /* float: center;
+    width: 15px;
+    height: 18px; */
+    text-align: center;
+    
+}
+
+.subheader {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.navbar {
+    display:flex;
+    justify-content: flex-end;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    border: white;
+}
+
+.navitem {
+    display: block;
+}
+
+ul {
+    position: relative;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline;
+    float: right;
+}
+
+
+.content {
+    text-align: center;
+    margin: center;
+}
+
+.info {
+    text-align: center;
+    padding: 10px;
+    border: 10px;
+
+}
+
+.img {
+    height: 400px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border: 10px solid black;
+}
+
+.form {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
 }
