@@ -1,96 +1,76 @@
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: beige;
-    padding: 1px;
-    margin: -1px;
-}
-
-.title {
-    text-align: center;
-    display: inline;
-    color: black;
-    background-color: beige;
-    padding: 20px;
-    position: relative;
+    padding: 5px;
+    margin: auto;
 }
 
 body {
+    display: block;
     background-color: beige;
 }
 
-.header {
-    padding: ;
-    color: black;
+header {
+    /* width: 100%; */
     background-color: black;
-    /* float: center;
-    width: 15px;
-    height: 18px; */
-    text-align: center;
-    
-}
-
-.subheader {
-    text-align: center;
-}
-
-.center {
-    text-align: center;
+    border: 5px solid green;
+    border-radius: 15px;
 }
 
 .navbar {
-    display:flex;
-    justify-content: flex-end;
-    padding: 20px;
-    color: white;
-    background-color: black;
-    border: white;
-}
-
-.navitem {
-    display: block;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
 }
 
 ul {
-    position: relative;
-    padding: 5px;
-    background-color: black;
-    color: white;
+    text-align: right;
 }
 
 li {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
     display: inline;
-    float: right;
+    list-style-type: none;
 }
 
-
-.content {
-    text-align: center;
-    margin: center;
+li a {
+    color: white;
+    font-size: 26px;
+    text-align: right;
 }
 
-.info {
+main {
     text-align: center;
-    padding: 10px;
-    border: 10px;
-
+    font-size: 36px;
 }
 
 .img {
-    height: 400px;
     width: 300px;
-    display: block;
-    margin: 0 auto;
-    padding: 10px;
-    border: 10px solid black;
+    height: 450px;
 }
 
-.form {
+p {
+    font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+form {
+    display: block;
     text-align: center;
 }
 
-.footer {
+#contact {
+    background: black;
+    width: 100px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    display: block;
+    border: 5px solid green;
+    border-radius: 15px;
+}
+
+footer {
     text-align: center;
 }
